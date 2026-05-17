@@ -1,0 +1,280 @@
+// 1. Create a variable using var and store your name.
+      var name ="santhoshkumar"
+
+// 2. Print your name using console.log().
+       console.log(name) 
+
+
+// 3. Create a variable using let and store your age.
+         let age = 22
+
+
+// 4. Change the value of age and print it.
+         age = 22
+         console.log(age)
+
+
+// 5. Create a constant variable for country name.
+         const country = "India"
+
+
+// 6. Print the country name.
+            console.log(country)
+
+
+
+// 7. Try redeclaring var variable and observe output.
+          var city = "Chennai"
+          var city = "Bangalore"
+            console.log(city)
+
+
+// 8. Try redeclaring let variable and observe error.
+            let state = "Tamil Nadu"
+            let state = "Karnataka"// Error: Identifier 'state' has already been declared
+            console.log(state)
+            
+
+
+// 9. Try reassigning const variable and observe error.
+            const pi = 3.14
+            pi = 3.14159 // Error: Assignment to constant variable.
+            console.log(pi)         
+
+
+// 10. Write difference between var and let.
+var:
+- Can be redeclared and updated.
+- Function-scoped.  
+let:
+- Cannot be redeclared but can be updated.
+- Block-scoped.
+
+
+
+
+// 11. Write difference between let and const.
+let:
+ - Value can be changed
+
+ const:
+ - Value cannot be changed
+
+
+// 12. Predict output
+
+var a = 10
+a = 20
+var a = 30
+
+console.log(a)
+
+output: 30  
+
+
+// 13. Predict output
+
+let b = 50
+b = 60
+
+console.log(b)
+
+output: 60
+
+
+// 14. Predict output
+
+const c = 100
+
+console.log(c)
+output: 100
+
+
+// 15. Use console.log() to print "Hello World".
+console.log("Hello World")
+
+
+// 16. Use alert() to show "Welcome User".
+alert("Welcome User")
+
+// 17. Use confirm() to ask user:
+// "Do you like JavaScript?"
+confirm("Do you like JavaScript?")
+
+
+// 18. Use prompt() to ask user name.
+let userName = prompt("What is your name?");
+
+
+// 19. Print prompt value in console.
+console.log(userName)
+
+
+// 20. Use document.writeln() to print "Batch 33".
+document.writeln("Batch 33")
+
+
+// 21. Create variable studentName and store your name.
+let studentName = "santhoshkumar"
+
+
+// 22. Create variable studentAge and store your age.
+let studentAge = 22
+
+
+// 23. Print both variables together.
+console.log(studentName, studentAge)
+
+// 24. Create a variable for mobile number.
+let mobileNumber = "1234567890"
+
+// 25. Print mobile number using console.log().
+console.log(mobileNumber)
+
+
+// 26. Create variable using var for favorite color.
+var favoriteColor = "blue"
+
+
+// 27. Reassign another color value.
+favoriteColor = "red"
+
+
+// 28. Create variable using let for marks.
+    let marks = 85
+
+
+// 29. Change marks value and print it.
+marks = 90
+console.log(marks)
+
+
+// 30. Create const variable for PI value.
+const piValue = 3.14
+
+
+// 31. Print PI value.
+console.log(piValue)
+
+// 32. Predict output
+
+var x = 5
+var x = 15
+
+console.log(x)
+ output: 15
+
+// 33. Predict output
+
+let y = 25
+y = 35
+
+console.log(y)
+output: 35
+
+// 34. Find error
+
+const z = 40
+z = 45
+
+console.log(z)
+
+
+// 35. Create alert box with your college name.
+alert("Your College Name")
+
+
+// 36. Ask user age using prompt().
+let userAge = prompt("What is your age?");
+
+
+// 37. Print user age in console.
+console.log(userAge)
+
+
+// 38. Ask user confirmation:
+// "Did you complete HTML?"
+confirm("Did you complete HTML?")
+
+
+// 39. Print confirm result in console.
+let confirmResult = confirm("Did you complete HTML?")
+console.log(confirmResult)
+
+
+
+// 40. Print "JavaScript Class" using document.writeln().
+document.writeln("JavaScript Class")
+
+
+// 41. Create 3 variables:
+// city, state, country.
+let city = "Chennai"
+let state = "Tamil Nadu"
+let country = "India"
+
+
+// 42. Print all variables together.
+console.log(city, state, country)   
+
+
+
+// 43. Create one example for var.
+var language = "JavaScript"
+console.log(language)
+
+
+// 44. Create one example for let.
+let framework = "React"
+console.log(framework)
+
+
+// 45. Create one example for const.
+const gravity = 9.8
+console.log(gravity)
+
+
+// 46. Predict output
+
+var num = 100
+num = 200
+
+console.log(num)
+ output: 200
+
+// 47. Predict output
+
+let price = 500
+price = 700
+
+console.log(price)
+output: 700
+
+
+// 48. Predict output
+
+const password = 12345
+
+console.log(password)
+
+output: 12345   
+
+
+// 49. Write rules of var.
+- can be redeclared 
+- can be reassigned
+- function scoped
+- Hoisted
+
+// 50. Write rules of let and const.
+
+let:
+ - Cannot be redeclared
+ - Can be reassigned
+- Block scoped
+
+ const:
+ - Cannot be redeclared
+ - Cannot be reassigned
+ - Block scoped
+ - Must be initialized during declaration
