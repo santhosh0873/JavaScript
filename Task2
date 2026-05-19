@@ -1,0 +1,198 @@
+Task : - 
+
+// 1. Create a variable and store your favorite food.
+        let favoriteFood = "Dosa";
+
+        console.log(favoriteFood);
+
+// 2. Create a variable and store your mobile number.
+       
+        let mobileNumber = "1234567890";
+
+        console.log(mobileNumber);
+
+// 3. Create a boolean variable with false value.
+        let isRaining = false;
+
+        console.log(isRaining);
+
+// 4. Create one undefined variable and print typeof.
+        let data;
+        console.log(typeof data);
+
+// 5. Create one array with 6 animal names.
+        let animals = ["Dog", "Cat", "Elephant", "Lion", "Tiger", "Giraffe"];
+        console.log(animals);
+
+// 6. Print second animal from array.
+        console.log(animals[1]);
+
+// 7. Print last animal from array using length.
+        console.log(animals[animals.length - 1]);
+
+// 8. Create object with bike details (name, model, color).
+        let bike = {
+            name: "Yamaha",
+            model: "MT15",
+            color: "Blue"
+        };
+        console.log(bike);
+
+// 9. Print bike color from object.
+        console.log(bike.color);
+
+// 10. Create two variables and subtract values.
+        let num1 = 20;
+        let num2 = 10;
+        
+        console.log(num1 - num2);
+
+
+// 11. Create two variables and divide values.
+        let a  = 100;
+        let b = 5;
+        console.log(a / b);
+
+// 12. Find 15 % 2.
+        console.log(15 % 2);
+
+// 13. Find 2 ** 5.
+        console.log(2 ** 5);
+
+// 14. Create variable with 5 and use post increment.
+
+        let count = 5;
+        console.log(count++);  // post increment
+
+// 15. Create variable with 10 and use pre increment.
+
+        let count2 = 10;
+        console.log(++count2);  // pre increment
+
+// 16. Create variable with 20 and use post decrement.
+
+        let count3 = 20;
+        console.log(count3--);  // post decrement
+
+// 17. Create variable with 50 and use pre decrement.
+
+        let count4 = 50;
+        console.log(--count4);  // pre decrement    
+
+
+// 18. Check 100 > 50.
+
+        console.log(100 > 50);  
+
+
+// 19. Check 25 < 10.
+
+        console.log(25 < 10);
+
+
+// 20. Check 50 >= 50.
+
+        console.log(50 >= 50);
+
+
+// 21. Check 30 <= 25.
+
+        console.log(30 <= 25);
+
+// 22. Check 10 == "10".
+
+        console.log(10 == "10");
+
+    
+// 23. Check 10 === "10".
+        console.log(10 === "10");
+
+        
+
+// 24. Check 25 != "25".
+
+        console.log(25 !=  "25");
+        
+// 25. Check 25 !== "25".
+
+        console.log(25 !== "25");
+
+// 26. Use AND operator:
+//     10 > 5 && 20 > 15
+        console.log(10 > 5 && 20 > 15);
+
+// 27. Use AND operator:
+//     5 > 10 && 20 > 15
+        console.log(5 > 10 && 20 > 15);
+
+// 28. Use OR operator:
+//     5 > 10 || 20 > 15
+        console.log(5 > 10 || 20 > 15);
+
+// 29. Use OR operator:
+//     2 > 5 || 1 > 10
+        console.log(2 > 5 || 1 > 10);
+
+// 30. Use NOT operator:
+//     !(10 > 5)
+        console.log(!(10 > 5));
+
+// 31. Use NOT operator:
+//     !(5 > 10)
+        console.log(!(5 > 10));
+
+// 32. Create ternary operator:
+//     if 50 > 25 print "True"
+//     else print "False"
+
+        let result = 50 > 25 ? "True" : "False";
+        console.log(result);    
+
+
+// 33. Create ternary operator:
+//     if 18 >= 21 print "Adult"
+//     else print "Minor"
+
+        let ageStatus = 18 >= 21 ? "Adult" : "Minor";
+        console.log(ageStatus); 
+
+
+
+// 34. Create one array with 5 city names and print third city.
+        let cities = ["New York", "London", "Paris", "Tokyo", "Sydney"];
+        console.log(cities[2]); 
+
+
+// 35. Create one object with employee details and print employee name.
+        let employee = {
+            name: "Santhosh Kumar",
+            age: 30,
+            position: "Software developer"
+        };
+        console.log(employee.name);
+
+// 36. Create variable with string "100" and print typeof.
+        let stringVar = "100";
+        console.log(typeof stringVar);
+
+
+// 37. Create variable with number 100 and print typeof.
+        let num = 100;
+        console.log(typeof num);
+
+// 38. Create one null variable and print it.
+        let nullVar = null;
+        console.log(nullVar);
+
+// 39. Create one array with mixed datatypes.
+        let mixedArray = ["Hello", 42, true, null, undefined];
+        console.log(mixedArray);
+
+// 40. Create object with student details:
+//     name, mark, passed(boolean)
+        let student = {
+            name: "Santhoshkumar",
+            mark: 85,   
+            passed: true
+        };
+        console.log(student);
