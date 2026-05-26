@@ -1,0 +1,174 @@
+     // TASK 4
+
+
+// 1. Smart Attendance Checker
+
+function checkExamEligibility(attendance, feesPaid) {
+    if (attendance >= 75 && feesPaid === true) {
+        return "Allowed for Exam";
+    } else {
+        return "Not Allowed";
+    }
+}
+
+console.log(checkExamEligibility(80, true));
+
+//2. Mobile Password Strength Checker
+
+function checkPassword(password) {
+    let hasNumber = false;
+    let hasUppercase = false;
+
+    for (let char of password) {
+        if (char >= '0' && char <= '9') {
+            hasNumber = true;
+        }
+
+        if (char >= 'A' && char <= 'Z') {
+            hasUppercase = true;
+        }
+    }
+
+    if (password.length >= 8 && hasNumber && hasUppercase) {
+        return "Strong Password";
+    } else {
+        return "Weak Password";
+    }
+}
+
+console.log(checkPassword("Abc12345"));
+
+// 3. Find Second Largest Number 
+
+let numbers = [10, 50, 80, 20, 90, 70];
+
+let largest = numbers[0];
+let secondLargest = numbers[0];
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > largest) {
+        secondLargest = largest;
+        largest = numbers[i];
+    } else if (numbers[i] > secondLargest && numbers[i] !== largest) {
+        secondLargest = numbers[i];
+    }
+}
+
+console.log(secondLargest); // Output: 80   
+
+//4. Bus Seat Booking System
+
+let seats = [false, false, false, false, false, false, false, false, false, false];
+
+function bookSeat(seatNumber) {
+
+    if (seats[seatNumber - 1] === true) {
+        console.log("Seat Already Booked");
+    } else {
+        seats[seatNumber - 1] = true;
+        console.log("Seat Booked Successfully");
+    }
+}
+
+bookSeat(3);
+bookSeat(3);
+
+//5. ATM Cash Withdraw Logic
+
+function withdraw(balance, amount) {
+
+    if (amount > balance) {
+        return "Insufficient Balance";
+    } 
+    else if ((balance - amount) < 1000) {
+        return "Minimum balance should be 1000";
+    } 
+    else {
+        return "Withdraw Successful";
+    }
+}
+
+console.log(withdraw(10000, 9500));
+
+//6. Product Search Engine
+
+let products = ["iphone", "samsung", "realme", "oppo"];
+
+let search = "realme";
+let found = false;
+
+for (let product of products) {
+    if (product.toLowerCase() === search.toLowerCase()) {
+        found = true;
+        break;
+    }
+}
+
+if (found) {
+    console.log("Product Found");
+} else {
+    console.log("Product Not Found");
+}
+
+// 7.  Voting Eligibility System
+
+function checkVotingEligibility(age, hasVoterId, citizenship) {
+
+    if (age >= 18) {
+
+        if (hasVoterId === true && citizenship === "Indian") {
+            return "Eligible to Vote";
+        } 
+        else {
+            return "Not Eligible to Vote";
+        }
+
+    } else {
+        return "Not Eligible to Vote";
+    }
+}
+
+console.log(checkVotingEligibility(20, true, "Indian"));
+
+// 8.  Online Food Order Bill
+
+function calculateBill(foodPrice, gst, deliveryCharge, discount) {
+
+    let gstAmount = (foodPrice * gst) / 100;
+
+    let totalBill = foodPrice + gstAmount + deliveryCharge - discount;
+
+    return "Total Bill : ₹" + totalBill;
+}
+
+console.log(calculateBill(400, 5, 30, 0)); // Total Bill : ₹450
+
+// 9.  Reverse Word Without reverse()
+
+let word = "javascript";
+let reversed = "";
+
+for (let i = word.length - 1; i >= 0; i--) {
+    reversed += word[i];
+}
+
+console.log(reversed); // Output: tpircsavaj
+
+// 10. Mini Instagram Like System 
+
+let isLiked = false;
+let totalLikes = 0;
+
+function toggleLike() {
+
+    isLiked = !isLiked;
+
+    isLiked ? totalLikes++ : totalLikes--;
+
+    console.log(isLiked ? "Liked ❤️" : "Like 🤍");
+    console.log("Total Likes:", totalLikes);
+}
+
+toggleLike();
+toggleLike();
+
